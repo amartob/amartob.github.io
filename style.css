@@ -10,3 +10,32 @@ footer {
   border: 1px solid #ddd;
   margin: 10px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-main {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo-sub {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #222;
+}
