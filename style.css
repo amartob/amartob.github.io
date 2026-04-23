@@ -2,23 +2,21 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #f8f5ef;
-}
-
-header,
-main,
-section,
-footer {
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin: 10px;
-  background-color: white;
+  color: #222;
 }
 
 header {
+  background-color: #f3ede3;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-inner {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 18px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f3ede3;
 }
 
 .logo {
@@ -29,7 +27,7 @@ header {
 
 .logo-main {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   font-family: Georgia, serif;
   color: #5c4328;
 }
@@ -42,9 +40,22 @@ header {
   margin-top: 4px;
 }
 
+nav {
+  display: flex;
+  gap: 18px;
+}
+
 nav a {
-  margin-left: 15px;
   text-decoration: none;
   color: #222;
   font-weight: 500;
+}
+
+main,
+section,
+footer {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  background-color: white;
 }
